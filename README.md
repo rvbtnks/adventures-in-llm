@@ -1,5 +1,7 @@
 # adventures-in-llm
-random poking at llm and rag stuff
 
-#llm-match.py
-script that is a wrapper for fuzzy matching, the fuzzy matcher has 1 - 5 options for the best match if it's under 90%, the wrapper then uses a llm model to select the correct match
+Random poking at LLM and RAG stuff.
+
+## llm-match.py
+
+A wrapper script for fuzzy matching. The fuzzy matcher provides 1-5 potential best matches when confidence is below 90%. The wrapper then uses an LLM model to select the correct match.
